@@ -13,11 +13,29 @@
 		37788ACD1E7A8E60009D5549 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37788ACB1E7A8E60009D5549 /* Main.storyboard */; };
 		37788ACF1E7A8E60009D5549 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37788ACE1E7A8E60009D5549 /* Assets.xcassets */; };
 		37788AD21E7A8E60009D5549 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37788AD01E7A8E60009D5549 /* LaunchScreen.storyboard */; };
+		6781E9BB1E8D0A6B00C9F25D /* NaverSpeech.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6781E9BA1E8D0A6B00C9F25D /* NaverSpeech.framework */; };
+		6781E9BC1E8D0A6B00C9F25D /* NaverSpeech.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6781E9BA1E8D0A6B00C9F25D /* NaverSpeech.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6781E9BF1E8D0B1E00C9F25D /* GameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6781E9BE1E8D0B1E00C9F25D /* GameVC.swift */; };
+		6781E9C11E8D108E00C9F25D /* Languages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6781E9C01E8D108E00C9F25D /* Languages.swift */; };
 		67D1BCDF1E84DDAD0042CB0B /* SnapContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D1BCDD1E84DDAD0042CB0B /* SnapContainerViewController.swift */; };
 		67D1BCE01E84DDAD0042CB0B /* VerticalScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D1BCDE1E84DDAD0042CB0B /* VerticalScrollViewController.swift */; };
 		67D1BCE51E84DE000042CB0B /* DictionaryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D1BCE41E84DE000042CB0B /* DictionaryVC.swift */; };
 		67D1BCE71E84DE0D0042CB0B /* RightVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D1BCE61E84DE0D0042CB0B /* RightVC.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6781E9A01E8D093500C9F25D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6781E9BC1E8D0A6B00C9F25D /* NaverSpeech.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		2FA69DE795DDD9D524EE80E7 /* Pods_Pronunciation_Edu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pronunciation_Edu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -28,6 +46,10 @@
 		37788ACE1E7A8E60009D5549 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37788AD11E7A8E60009D5549 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		37788AD31E7A8E60009D5549 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6781E9BA1E8D0A6B00C9F25D /* NaverSpeech.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NaverSpeech.framework; sourceTree = "<group>"; };
+		6781E9BE1E8D0B1E00C9F25D /* GameVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameVC.swift; sourceTree = "<group>"; };
+		6781E9C01E8D108E00C9F25D /* Languages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Languages.swift; sourceTree = "<group>"; };
+		6781E9C21E8D109500C9F25D /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
 		67D1BCDD1E84DDAD0042CB0B /* SnapContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapContainerViewController.swift; sourceTree = "<group>"; };
 		67D1BCDE1E84DDAD0042CB0B /* VerticalScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerticalScrollViewController.swift; sourceTree = "<group>"; };
 		67D1BCE41E84DE000042CB0B /* DictionaryVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryVC.swift; sourceTree = "<group>"; };
@@ -42,6 +64,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A6FE9A38AD23A6FB99A4818 /* Pods_Pronunciation_Edu.framework in Frameworks */,
+				6781E9BB1E8D0A6B00C9F25D /* NaverSpeech.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +84,7 @@
 			children = (
 				37788AC61E7A8E60009D5549 /* Pronunciation_Edu */,
 				37788AC51E7A8E60009D5549 /* Products */,
+				6781E9BA1E8D0A6B00C9F25D /* NaverSpeech.framework */,
 				A2FC51F19076015E3558CBDB /* Pods */,
 				19CF7D9118BC0CAF24F05A03 /* Frameworks */,
 			);
@@ -81,6 +105,7 @@
 				67D1BCE31E84DDDA0042CB0B /* Right */,
 				67D1BCE21E84DDD30042CB0B /* Middle */,
 				67D1BCE11E84DDCB0042CB0B /* Left */,
+				6781E9BD1E8D0B0000C9F25D /* Game */,
 				67D1BCDC1E84DD760042CB0B /* SwipeMotion */,
 				37788ACB1E7A8E60009D5549 /* Main.storyboard */,
 				37788ACE1E7A8E60009D5549 /* Assets.xcassets */,
@@ -88,6 +113,16 @@
 				37788AD31E7A8E60009D5549 /* Info.plist */,
 			);
 			path = Pronunciation_Edu;
+			sourceTree = "<group>";
+		};
+		6781E9BD1E8D0B0000C9F25D /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				6781E9BE1E8D0B1E00C9F25D /* GameVC.swift */,
+				6781E9C01E8D108E00C9F25D /* Languages.swift */,
+				6781E9C21E8D109500C9F25D /* Common.h */,
+			);
+			name = Game;
 			sourceTree = "<group>";
 		};
 		67D1BCDC1E84DD760042CB0B /* SwipeMotion */ = {
@@ -145,6 +180,7 @@
 				37788AC21E7A8E5F009D5549 /* Resources */,
 				9811E0ED9D9B05951DA6C5D7 /* [CP] Embed Pods Frameworks */,
 				BC4A7F77933165DD4B9FA439 /* [CP] Copy Pods Resources */,
+				6781E9A01E8D093500C9F25D /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -257,9 +293,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				37788ACA1E7A8E60009D5549 /* MainVC.swift in Sources */,
+				6781E9C11E8D108E00C9F25D /* Languages.swift in Sources */,
 				67D1BCE01E84DDAD0042CB0B /* VerticalScrollViewController.swift in Sources */,
 				67D1BCE51E84DE000042CB0B /* DictionaryVC.swift in Sources */,
 				67D1BCE71E84DE0D0042CB0B /* RightVC.swift in Sources */,
+				6781E9BF1E8D0B1E00C9F25D /* GameVC.swift in Sources */,
 				37788AC81E7A8E60009D5549 /* AppDelegate.swift in Sources */,
 				67D1BCDF1E84DDAD0042CB0B /* SnapContainerViewController.swift in Sources */,
 			);
@@ -384,6 +422,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VANL3XS874;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Pronunciation_Edu/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -399,6 +442,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VANL3XS874;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Pronunciation_Edu/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

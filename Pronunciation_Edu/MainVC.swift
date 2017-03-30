@@ -10,6 +10,8 @@ import UIKit
 
 class MainVC: UIViewController {
 
+    @IBOutlet weak var gameStartBtn: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
