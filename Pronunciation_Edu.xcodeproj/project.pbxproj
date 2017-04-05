@@ -20,7 +20,9 @@
 		67D1BCDF1E84DDAD0042CB0B /* SnapContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D1BCDD1E84DDAD0042CB0B /* SnapContainerViewController.swift */; };
 		67D1BCE01E84DDAD0042CB0B /* VerticalScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D1BCDE1E84DDAD0042CB0B /* VerticalScrollViewController.swift */; };
 		67D1BCE51E84DE000042CB0B /* DictionaryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D1BCE41E84DE000042CB0B /* DictionaryVC.swift */; };
-		67D1BCE71E84DE0D0042CB0B /* RightVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D1BCE61E84DE0D0042CB0B /* RightVC.swift */; };
+		67D1BCE71E84DE0D0042CB0B /* RankingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D1BCE61E84DE0D0042CB0B /* RankingVC.swift */; };
+		67E048A51E955DC700885FC4 /* Arita-dotum-Medium_OTF.otf in Resources */ = {isa = PBXBuildFile; fileRef = 67E048A41E955D5900885FC4 /* Arita-dotum-Medium_OTF.otf */; };
+		67F2F33E1E956DCF00BF9AEC /* RankingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F2F33D1E956DCF00BF9AEC /* RankingCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -53,7 +55,9 @@
 		67D1BCDD1E84DDAD0042CB0B /* SnapContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapContainerViewController.swift; sourceTree = "<group>"; };
 		67D1BCDE1E84DDAD0042CB0B /* VerticalScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerticalScrollViewController.swift; sourceTree = "<group>"; };
 		67D1BCE41E84DE000042CB0B /* DictionaryVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryVC.swift; sourceTree = "<group>"; };
-		67D1BCE61E84DE0D0042CB0B /* RightVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightVC.swift; sourceTree = "<group>"; };
+		67D1BCE61E84DE0D0042CB0B /* RankingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankingVC.swift; sourceTree = "<group>"; };
+		67E048A41E955D5900885FC4 /* Arita-dotum-Medium_OTF.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arita-dotum-Medium_OTF.otf"; sourceTree = "<group>"; };
+		67F2F33D1E956DCF00BF9AEC /* RankingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankingCell.swift; sourceTree = "<group>"; };
 		D50B971F6826A340C5547EFF /* Pods-Pronunciation_Edu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pronunciation_Edu.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pronunciation_Edu/Pods-Pronunciation_Edu.release.xcconfig"; sourceTree = "<group>"; };
 		FBF601EB6B20332BB7E3CAF0 /* Pods-Pronunciation_Edu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pronunciation_Edu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pronunciation_Edu/Pods-Pronunciation_Edu.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,6 +105,7 @@
 		37788AC61E7A8E60009D5549 /* Pronunciation_Edu */ = {
 			isa = PBXGroup;
 			children = (
+				67E048A41E955D5900885FC4 /* Arita-dotum-Medium_OTF.otf */,
 				37788AC71E7A8E60009D5549 /* AppDelegate.swift */,
 				67D1BCE31E84DDDA0042CB0B /* Right */,
 				67D1BCE21E84DDD30042CB0B /* Middle */,
@@ -153,7 +158,8 @@
 		67D1BCE31E84DDDA0042CB0B /* Right */ = {
 			isa = PBXGroup;
 			children = (
-				67D1BCE61E84DE0D0042CB0B /* RightVC.swift */,
+				67D1BCE61E84DE0D0042CB0B /* RankingVC.swift */,
+				67F2F33D1E956DCF00BF9AEC /* RankingCell.swift */,
 			);
 			name = Right;
 			sourceTree = "<group>";
@@ -231,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67E048A51E955DC700885FC4 /* Arita-dotum-Medium_OTF.otf in Resources */,
 				37788AD21E7A8E60009D5549 /* LaunchScreen.storyboard in Resources */,
 				37788ACF1E7A8E60009D5549 /* Assets.xcassets in Resources */,
 				37788ACD1E7A8E60009D5549 /* Main.storyboard in Resources */,
@@ -296,10 +303,11 @@
 				6781E9C11E8D108E00C9F25D /* Languages.swift in Sources */,
 				67D1BCE01E84DDAD0042CB0B /* VerticalScrollViewController.swift in Sources */,
 				67D1BCE51E84DE000042CB0B /* DictionaryVC.swift in Sources */,
-				67D1BCE71E84DE0D0042CB0B /* RightVC.swift in Sources */,
+				67D1BCE71E84DE0D0042CB0B /* RankingVC.swift in Sources */,
 				6781E9BF1E8D0B1E00C9F25D /* GameVC.swift in Sources */,
 				37788AC81E7A8E60009D5549 /* AppDelegate.swift in Sources */,
 				67D1BCDF1E84DDAD0042CB0B /* SnapContainerViewController.swift in Sources */,
+				67F2F33E1E956DCF00BF9AEC /* RankingCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

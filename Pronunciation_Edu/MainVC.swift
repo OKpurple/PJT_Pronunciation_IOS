@@ -11,6 +11,7 @@ import UIKit
 class MainVC: UIViewController {
 
     @IBOutlet weak var gameStartBtn: UIButton!
+    let word : [String] = ["새로운","활기찬","감격","감동란","발걸음"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,6 +22,14 @@ class MainVC: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "gameSegue"{
+        let destination = segue.destination as! GameVC
+            destination.receivedWord = word
+        }
+    }
+    
 
 
 }

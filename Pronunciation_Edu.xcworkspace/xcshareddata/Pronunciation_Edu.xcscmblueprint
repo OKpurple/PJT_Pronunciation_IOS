@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "FBB3BDA3EDF8DCF5DFEAD7C15EBEBAD89E548B27",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "FBB3BDA3EDF8DCF5DFEAD7C15EBEBAD89E548B27" : 9223372036854775807,
+    "448FA02D44027F10392198E798BBA4CD5ABB566C" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "23B3AFFD-8D72-4B26-9F6C-F22CEE94B828",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "FBB3BDA3EDF8DCF5DFEAD7C15EBEBAD89E548B27" : "Pronunciation_Edu\/",
+    "448FA02D44027F10392198E798BBA4CD5ABB566C" : "..\/..\/Downloads\/naverspeech-sdk-ios"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Pronunciation_Edu",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Pronunciation_Edu.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/naver\/naverspeech-sdk-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "448FA02D44027F10392198E798BBA4CD5ABB566C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/YOONMS\/Pronunciation_Edu.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FBB3BDA3EDF8DCF5DFEAD7C15EBEBAD89E548B27"
+    }
+  ]
+}
