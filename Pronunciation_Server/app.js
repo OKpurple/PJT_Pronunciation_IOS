@@ -1,10 +1,11 @@
 var express = require('express');
 var app = express();
 
-var tts = require('./routes/tts.js')
+var game = require('./routes/game.js')
+var users = require('./routes/user.js')
+app.use('/game',game);
+app.use('/users',users);
 
-app.use('/tts',tts);
-
- app.listen(33200, function () {
-   console.log('http://127.0.0.1:3000/tts app listening on port 3000!');
+ app.listen(8081, function () {
+   console.log('ProEdu server started');
  });

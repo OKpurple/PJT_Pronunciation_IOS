@@ -1,0 +1,10 @@
+{
+  "port"     : 3306,
+  "host"     : "13.124.115.238",
+  "user"     : "we",
+  "password" : "wearetogether",
+  "database" : "ProEdu",
+  "multipleStatements" : true,
+  "connectionLimit"     : 20,
+  "waitForConnections"   : true
+}
